@@ -1,0 +1,24 @@
+body{
+	background-color:var(--wholepage);
+	color: #fff;
+	font-family: "helvetica neue", sans-serif;
+	font-weight: 100px;
+	font-size: 50px;
+}
+html{
+	--space: 10px;
+	--blur: 0;
+	--base: #ccc;
+	--wholepage: #000;
+}
+img{
+	width: 900px;
+	height: 500px;
+	filter: blur(var(--blur));
+	padding: var(--space);
+	background-color: var(--base);
+}
+#controls{
+
+	margin-bottom: 50px;
+}
